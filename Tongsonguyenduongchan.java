@@ -11,12 +11,13 @@ public class Tongsonguyenduongchan {
         System.out.print("Nhap n: ");
         int n = sc.nextInt();
         
-        int tong = 0;
+        int S = 0;
         
         for (int i = 2; i <= n; i += 2) {
-            tong += i;
+            S += i;
         }
         
-        System.out.println("Tong chan = " + tong);
+        System.out.println("Tong chan = " + S);
     }
+
 }
