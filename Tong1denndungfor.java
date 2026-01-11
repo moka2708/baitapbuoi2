@@ -9,11 +9,12 @@ public class Tong1denndungfor {
         System.out.print("Nhap n: ");
         int n = sc.nextInt();
         
-        int tong = 0;
+        int S = 0;
         for (int i = 1; i <= n; i++) {
-            tong += i;
+            S += i;
         }
         
-        System.out.println("Tong = " + tong);
+        System.out.println("Tong = " + S);
     }
+
 }
