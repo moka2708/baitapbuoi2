@@ -11,7 +11,8 @@ public class Tong1denn {
             S += i;
             i++;
         }        
-        System.out.println("Tong = " + tong);
+        System.out.println("Tong = " + S);
     }
 
 }
+
